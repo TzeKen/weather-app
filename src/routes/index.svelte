@@ -1,7 +1,7 @@
 <script>
     let location ="";
     let temperature ="";
-    let location ="";
+    let description ="";
 
     async function getWeather() {
         fetch('https://goweather.herokuapp.com/weather/' + location)
